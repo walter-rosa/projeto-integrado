@@ -1,27 +1,103 @@
 h1 {   
-     font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:20px;
     font-weight: 700;
     padding-top: 10px;
 }
 
+#tela_login{
+ display: flex;
+ flex-direction:row-reverse;
+
+}
+
+#img_entregador{
+    max-width: 15%;
+    margin-left:20%;
+    margin-right: 11%;
+    
+}
+
+button{
+    margin-right: 25%;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding: 5px;
+}
+
 body{
-    background-color: rgb(160, 233, 196);
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(102, 205, 231);
     padding: 0;
     margin: 0;
 }
 
-.banner-superior {
-    padding-left: 5%;
+.input_texto {
+    width: 60%;
+    margin-left: 40px;
+}
+
+.input_texto:focus{
+    background-color:rgb(224, 224, 241);
+    border-bottom-width: 5px;
+
+}
+h2{
+    margin-left: 10%;
+}
+
+.label_texto {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#banner-login {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: 60px;
+    background-color: white;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.banner-superior {
+    padding-left: 20%;
+    display: flex;
+    flex-direction:row;
     width: 100%;
     border-style: none;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     background-color: white;
+    transition: 3s;
 }
+
+.botao_login {
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-style: none;
+    background-color: white;
+    font-weight:bold;
+    color: #276EF1;
+ 
+}
+
 
 .truck_banner{
     max-width: 6%;
