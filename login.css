@@ -1,3 +1,32 @@
-h1 {
-background-color: aquamarine;
+h1 {   
+     font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    padding-top: 10px;
 }
+
+body{
+    background-color: rgb(160, 233, 196);
+    padding: 0;
+    margin: 0;
+}
+
+.banner-superior {
+    padding-left: 5%;
+    display: flex;
+    width: 100%;
+    border-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.truck_banner{
+    max-width: 6%;
+    max-height: 2%;
+    margin-right: 20px;
+    margin-left: 0%;
+}
+
